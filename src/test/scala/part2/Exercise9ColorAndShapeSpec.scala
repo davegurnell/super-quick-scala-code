@@ -4,24 +4,45 @@ import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
 class Exercise9ColorAndShapeSpec extends AnyFlatSpec with Matchers {
-  // val shape1: Shape = Circle(10, Color(1, 1, 0))
-  // val shape2: Shape = Rect(3, 5, Color(1, 0, 1))
-
-  "area" should "calculate the area of a shape" in {
+  "color's isLight method" should "identify light colors" in {
     pending
-    // shape1.area should equal(math.Pi * 10 * 10)
-    // shape2.area should equal(3 * 5)
+
+    // val yellow = Color(1, 1, 0)
+    // val red = Color(1, 0, 0)
+    //
+    // yellow.isLight shouldBe true
+    // red.isLight shouldBe false
   }
 
-  "perimeter" should "calculate the perimeter of a shape" in {
+  "color's toGreyscale method" should "identify light colors" in {
     pending
-    // shape1.perimeter should equal(2 * math.Pi * 10)
-    // shape2.perimeter should equal(3 * 2 + 5 * 2)
+  }
+
+  "shape's area method" should "calculate the area of a shape" in {
+    pending
+  }
+
+  "shape's perimeter method" should "calculate the perimeter of a shape" in {
+    pending
   }
 
   "every shape" should "have a color" in {
     pending
-    // shape1.color should equal(Color(1, 1, 0))
-    // shape2.color should equal(Color(1, 0, 1))
+  }
+
+  "Color's greyscale method" should "create a shade of grey" in {
+    pending
+  }
+
+  "Color's blend method" should "calculate the 'average' of two colors" in {
+    pending
+  }
+
+  "Shape's compare method" should "order circles before rectangles" in {
+    pending
+  }
+
+  "Shape's compare method" should "order larger shapes before smaller ones" in {
+    pending
   }
 }
